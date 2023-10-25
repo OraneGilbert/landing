@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Studio Ghibli</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2; 
+        }
+
+        .banner {
+            background-image: url(images/BANNER.png);
+            background-color: #333; 
+            background-size: cover; 
+            color: white;
+            text-align: center;
+            padding: 200px 0; 
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3rem; 
+            margin-bottom: 10px;
+            color: #007bff; 
+        }
+
+        h2 {
+            font-size: 2rem; 
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.5rem; 
+            color: #555; 
+        }
+
+        .avatar {
+            display: block;
+            margin: 0 auto;
+            max-width: 100px;
+            border-radius: 50%; 
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn.blue:hover {
+            background-color: #0056b3; 
+        }
+
+        .card {
+            display: inline-block;
+            margin: 20px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card img {
+            max-width: 100px; 
+            border-radius: 50%;
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="container">
+            <h1>GHIBLI STUDIO</h1>
+            <h2>Find all our movies on our website</h2>
+            <a href="#" class="btn blue">Movie search</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>About us</h2>
+        <p>Explore the enchanting world of Studio Ghibli films, where romance, action, tenderness, and captivating adventures come to life. Immerse yourself in the magic of animation and embark on a journey that will transport your heart and soul.</p>
+
+        <h2>Log in</h2>
+        <img class="avatar" src="images/mascot.jpg" alt="Studio Ghibli">
+        
+        <h2>Stay captived with our latest film releases</h2>
+        <a href="#" class="btn blue">Subscribe</a>
+        
+        <h2>The more popular</h2>
+
+        <div class="card">
+            <img src="images/princesse.jpg" alt="Princess Mononoke">
+            <h3>Princess Mononoke</h3>
+            <a href="#" class="btn blue">watch Princess Momonoke</a>
+        </div>
+
+        <div class="card">
+            <img src="images/castel.jpg" alt="Castle in the Sky">
+            <h3>Castle in the Sky</h3>
+            <a href="#" class="btn blue">watch Castel in the Sky</a>
+        </div>
+
+       <div class="card">
+            <img src="images/ocean.jpg" alt="Ocean Waves">
+            <h3>Ocean Waves</h3>
+            <a href="#" class="btn blue">watch Ocean Waves</a>
+        </div>
+        <div class="card">
+            <img src="images/chihiro.webp" alt="Spirited away">
+            <h3>Spirited away</h3>
+            <a href="#" class="btn blue">watch Spirited away</a>
+        </div>
+    </div>
+</body>
+
+</html>
